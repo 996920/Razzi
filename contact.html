@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web-20220914T103346Z-001/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+<body>
+ 
+ 
+ <!-- navbar div -->
+<div class="container-fluid nav_bg  sticky-lg-top">
+    <div class="row justify-content-between">
+      <div class="col-sm-3 col-md-6 col-lg-2 heading ">
+      <h3> Razzi.</h3>
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4  d-flex justify-content-center align-item-center">
+        <ul class="nav nav_ui  ">
+            <li class="nav-item">
+                <a class="nav-link active"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html"> Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+          
+          </ul>
+      </div>
+      <div class="col-lg-3 p-2 icon_nav">
+        <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-solid fa-magnifying-glass"></i>
+             </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1">
+            <i class="fa-regular fa-user  "></i>
+            </button>
+          <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-regular fa-heart "></i>
+         </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample4">
+             <i class="fa-brands fa-shopify "></i>
+        
+           </button>
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample" >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabe">Search Product</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                  All Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="mb-3">
+                
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+              </div>
+            </div>
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample1" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search Product</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+
+        
+            </div>
+          </div>
+         
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample4" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your card(0)</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact div  -->
+  
+
+<div class="contacttextdiv mt-5 text-center pt-5 p-5">
+    <h1 class="p-4 mt-1 fw-bold">CONTACT US</h1>
+    <p>Home <span class="span2">></span> <span class="span2">Contact Us</span></p>
+</div>
+
+<div class="calltousdiv m-5">
+    <div class="coltousdiv1">
+        <div class="row">
+            <div class="col-4">
+                <i class="fa-solid fa-location-dot"></i> <b>&nbsp  Call To Us </b></i>
+                <p class="pcolor">We are available from 10 am 10 pm EST,</p>
+                <p class="pcolor">7 days a week.</p>
+                <p class="fw-bold">Customer Service:</p>
+                <p class="pcolor">6-146-389-574</p>
+                <p class="fw-bold">Careers:</p>
+                <p class="pcolor">6-146-389-575</p>
+                <hr class="pcolor">
+                <i class="fa-solid fa-envelope"><b> &nbsp Write to Us: </b></i>
+                <p class="pcolor">Fill out our form and we will contact you</p>
+                <p class="pcolor">within 24 hours.</p>
+                <p class="fw-bold">Customer Service:</p>
+                <p class="pcolor">customer@example.com</p>
+                <p class="fw-bold">Careers:</p>
+                <p class="pcolor">careers@example.com</p>
+                <hr class="pcolor">
+                <i class="fa-solid fa-envelope"> Find Us </i>
+                <p class="pcolor"><b>Go to Store Locator </b></p>
+            </div>
+            <div class="col-8">
+                <div class="row mb-3">
+                    <!-- <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label> -->
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-lg mt-4" id="colFormLabelSm" placeholder=" Your Name*">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <!-- <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label> -->
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-lg mt-4" id="colFormLabel" placeholder=" Your Email*">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <!-- <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label> -->
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control form-control-lg mt-4" id="colFormLabelLg" placeholder=" Your Phone*">
+                    </div>
+                    <div class="col-sm-10">
+                        <input type="title" class="form-control form-control-lg mt-4" id="colFormLabelLg" placeholder=" Your Title*">
+                      </div>
+                    <div class="col-sm-10 col-md-10 col-lg-10">
+                        <!-- <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="0"> -->
+                        <textarea type ="textarea" name="" placeholder="Message*" rows="7" class="form-control mt-4 bd"></textarea>
+                    </div>
+                    
+                    <div class="col-sm-4 mt-4">
+                        <button type="button" rows="3" class="btn btn-dark p-3 px-5 btn4 fw-bold">Send Message</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="container-fluid">
+    <div class="mapdiv mt-5">
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15068.880722204!2d72.8522607!3d19.2292336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a3374a957943f4b!2sTryCatch%20Classes%20%7C%20Full%20Stack%20Web%20Development%20%7C%20Data%20Science%20Python%20%7C%20Software%20Testing%20%7C%20Android%20IOS%20Flutter!5e0!3m2!1sen!2sin!4v1664087838577!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer   -->
+<div class="container-fluid footer" >
+    <div class="row footer">
+      <div class="col icon">
+        <h1>Razzi.</h1>
+       <a><i class="fa-brands fa-facebook icon"></i></a>
+       <a>  <i class="fa-brands fa-twitter icon"></i></a>
+       <a> <i class="fa-brands fa-google icon"></i></a>
+       <a></a> <i class="fa-solid fa-t icon"></i></a>
+  
+  
+  
+      </div>
+      <div class="col">
+        <h3>SUPPORT</h3>
+        <a><h5>Contact Us</h5></a>
+        <h5> FAQs</h5>
+        <h5> Store Locator</h5>
+        <h5> Shipping & Returns</h5>
+        
+  
+      </div>
+      <div class="col">
+        <h3>SHOP</h3>
+        <h5>Men's Shooping </h5>
+        <h5> Women's Shooping</h5>
+        <h5> Kids' Shooping</h5>
+        <h5> Discount</h5>
+  
+      </div>
+      <div class="col">
+        <h3>COMPANY</h3>
+        <h5> Our Story</h5>
+        <h5> Careers</h5>
+        <h5> Teams & Conditions</h5>
+        <h5> privacy & Cookie policy</h5>
+  
+        
+      </div>
+      <div class="col">
+        <h3>CONTACT</h3>
+        <h5>1-888-923-8044</h5>
+        <h5>1-888-923-8055</h5>
+        <h5>help@allbirds.com</h5>
+        
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- end footer  -->
+  <div class="container-fluid">
+  <div class="endfooter  d-flex">
+    <img src="./images/download.png" class="img-fluid" alt="">
+    <img src="./images/icons_payment.png" class="img-fluid" alt="...">
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <script src="./js/popper.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>

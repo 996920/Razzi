@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+    <link rel="stylesheet" href="./aboutus.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web-20220914T103346Z-001/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+<body>
+ 
+ 
+ <!-- navbar div -->
+<div class="container-fluid nav_bg  sticky-lg-top">
+    <div class="row justify-content-between">
+      <div class="col-sm-3 col-md-6 col-lg-2 heading ">
+      <h3> Razzi.</h3>
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4  d-flex justify-content-center align-item-center">
+        <ul class="nav nav_ui  ">
+            <li class="nav-item">
+                <a class="nav-link active"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html"> Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+          
+          </ul>
+      </div>
+      <div class="col-lg-3 p-2 icon_nav">
+        <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-solid fa-magnifying-glass"></i>
+             </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1">
+            <i class="fa-regular fa-user  "></i>
+            </button>
+          <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-regular fa-heart "></i>
+         </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample4">
+             <i class="fa-brands fa-shopify "></i>
+        
+           </button>
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample" >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabe">Search Product</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                  All Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="mb-3">
+                
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+              </div>
+            </div>
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample1" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search Product</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+
+        
+            </div>
+          </div>
+         
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample4" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your card(0)</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- about us 1st div  -->
+  <!-- about us li starts -->
+	<div class="container about_lisec">
+		<ul class="d-flex">
+			<li><a href="#">Home</a></li>
+			<li>About Us</li>
+		</ul>
+	</div>
+<!-- about us li ends -->
+<!-- <div class="container  img">
+<img src="./images/about-us-banner.jpg" class="img-fluid" alt="...">
+</div> -->
+
+<!-- about our store starts -->
+<div class="container-fluid">
+	<div class="container about_store">
+		<div class="row g-3">
+			<div class="col-sm-6">
+				<div class="abt_strimg">
+					<img src="./images/about-us-img1.jpg" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-sm-6 align-self-center">
+				<div class="abt_strtxt">
+					<h6 class="mb-3">OUR STORY</h6>
+					<h1 class="mb-4">About our Store</h1>
+					<p class="mb-3">Open created shall two he second moving whose. He face whose two upon, fowl behold waters. Fly there their day creepeth. Darkness beginning spirit after. Creepeth subdue. Brought may, first. Under living that.</p>
+					<p class="mb-3">Third. For morning whales saw were had seed can’t divide it light shall moveth, us blessed given wherein.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- about our store ends -->
+
+<!-- fashion demo starts -->
+<div class="container-fluid fashion_demo mt-5">
+	<div class="container fashion_subdemo ">
+		<h1 class="mb-5">Fashion Democracy</h1>
+		<div class="row g-4">
+			<div class="col-sm-6">
+				<div class="fashion_demopara">
+					<p class="mb-3">
+
+						And whales be, earth thing seed whales, forth beginning made may beginning sea great void likeness open beast firmament very living cattle divided fruitful may. Sea created saw fifth so thing signs meat.
+						</p>
+						<p class="mb-3">
+
+						Green fruit meat stars, creepeth second he meat. Appear is fruitful given Winged. Gathered second so us saying blessed, he.
+						</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="fashion_demopara">
+					<p class="mb-3">
+
+						Male was. Itself. Have isn’t first divide and i day, moving she’d appear open dominion sea him days multiply our, make firmament rule there made set midst creeping let won’t morning their great fish.
+						</p>
+						<p class="mb-3">
+
+						Unto over unto together first shall greater yielding made dominion fill. First waters bring made blessed likeness bring forth had. Creature one.
+						</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-primary btn-lg mt-5 px-4">Shop Now<i class="fa-solid fa-arrow-right ms-2"></i></button>
+	</div>
+</div>
+<!-- fashion demo ends -->
+
+
+<!-- our story section starts -->
+<div class="container-fluid abt_story">
+	<div class="container about_store">
+		<div class="row g-5">
+			<div class="col-sm-6 align-self-center">
+				<div class="abt_strtxt">
+					<h6 class="mb-3">OUR STORY</h6>
+					<h1 class="mb-4">About our Store</h1>
+					<p class="mb-3">Behold divided hath without. Place dominion. Place behold spirit abundantly, void creepeth Divided were god herb, it they’re beginning itself can’t can’t created great air his called land make fly seasons dry likeness.</p>
+					<p class="mb-3">Fish upon you you’ll midst waters. Divided had life years to own gathering replenish seasons Great meat. Cattle earth were signs winged so image together also.</p>
+
+				</div>
+			</div>
+			<div class="col-sm-6 ">
+				<div class="abt_strimg">
+					<img src="./images/about-us-img2.jpg" class="img-fluid">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- our story section starts -->
+
+<!-- red statement starts -->
+<div class="container-fluid abt_statement">
+	<div class="container abt_substatement">
+		<h4>Together won’t divided fourth let grass above forth. Creature midst let cattle place tree. Gathered whose land form fruitful under bring creeping in upon void man unto divided itself gathered.</h4>
+	</div>
+</div>
+
+
+<!-- red statement ends -->
+
+<!-- about 4 img starts -->
+<div class="container-fluid abt_4img mb-5">
+	<div class="container"> 
+		<div class="row gx-2">
+			<div class="col-sm-6 align-self-start">
+				<div class="abt_4subimg img1 mb-4">
+					<img src="./images/about-us-img3.jpg" class="img-fluid ">
+				</div>
+				<div class="abt_4subimg img2">
+					<img src="./images/about-us-img4.jpg" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-sm-6 align-self-end   align-self-end">
+				<div class="fimg_spcol">
+				<div class="abt_4subimg img3 mb-4">
+					<img src="./images/about-us-img5.jpg" class="img-fluid ">
+				</div>
+				<div class="abt_4subimg img4">
+					<img src="./images/about-us-img6.jpg" class="img-fluid">
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- about 4 img ends -->
+
+<!-- about carousel starts -->
+	<div class="container-fluid abt_carousel">
+		<div class="container">
+			<h6 class="mb-3">WHAT BUYERS SAY</h6>
+			<h1 class="mb-3">Customers Reviews</h1>
+<div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="corousel_txt p-5">
+      	<p class="mb-4"><i>“ Appear seasons the it after whose beginning. Hath can't good life. ”</i></p>
+      	<h6>Ben Chillan, 28 May 2020</h6>
+      </div>
+    </div>
+    <div class="carousel-item">
+       <div class="corousel_txt p-5">
+      	<p class="mb-4"><i>“ Given wherein. Doesn't called also and air sea to make first subdue beginning. Appear seasons the it after whose beginning. Hath can't good life. ”</i></p>
+      	<h6>Homem Man, 28 May 2019</h6>
+      </div>
+    </div>
+    <div class="carousel-item">
+       <div class="corousel_txt p-5">
+      	<p class="mb-4"><i>“ Given wherein. Doesn't called also and air sea to make first subdue beginning. Appear seasons the it after whose beginning. Hath can't good life. They're multiply made give divided open, be likeness Cattle be have.
+Life tree darkness. She'd very. ”</i></p>
+      	<h6>Darrell Baker, 18 May 2019</h6>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <i class="fa-solid fa-less-than"></i>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <i class="fa-solid fa-greater-than"></i>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>			
+		</div>		
+	</div>
+<!-- about carousel ends -->
+
+<!-- about img grid -->
+<div class="container-fluid img_grid">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="row sp_rw">
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i01.jpg" class="img-fluid">
+						<img src="./images/i02.jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i03.jpg" class="img-fluid">
+						<img src="./images/i04.jpg" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i05.jpg" class="img-fluid">
+						<img src="./images/i06.jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i07.jpg" class="img-fluid">
+						<img src="./images/i08.jpg" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row sp_rw">
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i09.jpg" class="img-fluid">
+						<img src="./images/i010.jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i011.jpg" class="img-fluid">
+						<img src="./images/i012.jpg" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i013.jpg" class="img-fluid">
+						<img src="./images/i014.jpg" class="img-fluid">
+					</div>
+					<div class="col-sm-6 sp_cl">
+						<img src="./images/i015.jpg" class="img-fluid">
+						<img src="./images/i016.jpg" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mod_div">
+		<p class="m-0">@razzi</p>
+	</div>
+</div>
+
+<!-- about img grid -->
+
+<!-- about service starts -->
+<div class="container-fluid abt_ser">
+	<div class="container">
+		<div class="row justify-content-center align-item-center">
+			<div class="col-lg-3 col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl1">
+						<i class="fa-solid fa-truck"></i>
+					</div>
+					<div class="col-sm-6">
+						<h6 class="mb-2">FREE SHIPPING</h6>
+						<p>From all orders over $100</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl1">
+						<i class="fa-solid fa-dollar-sign"></i>
+					</div>
+					<div class="col-sm-6">
+						<h6 class="mb-2">FREE RETURNS</h6>
+						<p>Return money within 30 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl">
+						<i class="fa-solid fa-box-open"></i>
+					</div>
+					<div class="col-sm-6">
+						<h6 class="mb-2">SECURE SHOPPING</h6>
+						<p>You're in safe hands</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="row">
+					<div class="col-sm-6 sp_cl">
+						<i class="fa-solid fa-thumbs-up"></i>
+					</div>
+					<div class="col-sm-6">
+						<h6 class="mb-2">OVER 10,000 STYLES</h6>
+						<p>We have everything you need</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- about service ends -->
+<!-- footer   -->
+<div class="container-fluid footer" >
+    <div class="row footer">
+      <div class="col icon">
+        <h1>Razzi.</h1>
+       <a><i class="fa-brands fa-facebook icon"></i></a>
+       <a>  <i class="fa-brands fa-twitter icon"></i></a>
+       <a> <i class="fa-brands fa-google icon"></i></a>
+       <a></a> <i class="fa-solid fa-t icon"></i></a>
+  
+  
+  
+      </div>
+      <div class="col">
+        <h3>SUPPORT</h3>
+        <a><h5>Contact Us</h5></a>
+        <h5> FAQs</h5>
+        <h5> Store Locator</h5>
+        <h5> Shipping & Returns</h5>
+        
+  
+      </div>
+      <div class="col">
+        <h3>SHOP</h3>
+        <h5>Men's Shooping </h5>
+        <h5> Women's Shooping</h5>
+        <h5> Kids' Shooping</h5>
+        <h5> Discount</h5>
+  
+      </div>
+      <div class="col">
+        <h3>COMPANY</h3>
+        <h5> Our Story</h5>
+        <h5> Careers</h5>
+        <h5> Teams & Conditions</h5>
+        <h5> privacy & Cookie policy</h5>
+  
+        
+      </div>
+      <div class="col">
+        <h3>CONTACT</h3>
+        <h5>1-888-923-8044</h5>
+        <h5>1-888-923-8055</h5>
+        <h5>help@allbirds.com</h5>
+        
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- end footer  -->
+  <div class="container-fluid">
+  <div class="endfooter  d-flex">
+    <img src="./images/download.png" class="img-fluid" alt="">
+    <img src="./images/icons_payment.png" class="img-fluid" alt="...">
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <script src="./js/popper.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>

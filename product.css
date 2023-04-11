@@ -1,0 +1,176 @@
+.heading{
+    display: inline-block;
+    
+ 
+    margin-left: 25px;
+}
+body{
+    height: 310vh;
+}
+.nav_bg{
+    background-color: white;
+    color: black !important;
+    /* margin-top: 10px; */
+    padding: 25px;
+    /* display: inline-block; */
+}
+.icon_nav{
+    /* justify-content: end !important; */
+    align-items: center;
+    display: inline-block;
+/* margin-left: 280px; */
+}
+.nav-link{
+     color: black!important;
+    font-weight: 500;
+
+}
+.nav_ui{
+    margin-left: 0px;
+}
+/* 1st session start */
+.carousel_div{
+    color: black !important;
+    background-color: white;
+    width: 30%;
+     top: 10%;
+     height: 50%;
+     border: none !important;
+     
+     
+     /* width: auto; */
+}
+.btn{
+    border: none;
+}
+.font_class{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.font{
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+ .font_Div:hover {
+    color: grey;
+}
+
+/* 1st div start  */
+
+.first_divone{
+    justify-content: center;
+    align-items:left ;
+}
+.first_divtwo{
+margin-left: 50px !important;
+}
+.first_div{
+    margin-top: 30px !important;
+}
+.firsth4{
+    color: #FF6F61 !important;
+
+}
+.progress_clr{
+    background-color: #FF6F61 !important;
+}
+.btn_colour{
+    background-color: black !important;
+    color: white;
+}
+
+.btn_one{
+    background-color: white !important;
+    color: black !important ;
+    /* border: grey !important; */
+}
+.fiirstcol p{
+    color: grey !important;
+}
+
+/* <!-- 2nd div --> */
+.second_div{
+    margin-top: 50px !important;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+}
+.col_2clr{
+    color: #FF6F61 !important;
+}
+.para_3{
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 120px !important;
+    padding: 30px;
+}
+
+/* <!-- 3rd div  --> */
+.third_div h1{
+    margin-top: 50px !important;
+    margin-left: 500px;
+    /* justify-content: center !important;
+    align-items: center !important; */
+}
+
+.progress_clr{
+    background-color: #FF6F61 !important;
+}
+
+.three_progress{
+    height: 3px !important;
+}
+.three_img{
+    height: 150px !important;
+    width: 150px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- footer   --> */
+.footer{
+    margin-top: 80px !important;
+    background-color: black !important;
+    color: white;
+    height: 300px !important;
+    width: 100%;  
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 50px !important; */
+}
+.icon{
+    padding: 5px !important;
+}
+
+/* <!-- end footer  --> */
+.endfooter{
+    background-color: black !important;
+    color: white !important;
+    justify-content: space-between !important;
+}

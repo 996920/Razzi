@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web-20220914T103346Z-001/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+<body>
+ 
+ 
+ <!-- navbar div -->
+<div class="container-fluid nav_bg  sticky-lg-top">
+    <div class="row justify-content-between">
+      <div class="col-sm-3 col-md-6 col-lg-2 heading ">
+      <h3> Razzi.</h3>
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4  d-flex justify-content-center align-item-center">
+        <ul class="nav nav_ui  ">
+            <li class="nav-item">
+                <a class="nav-link active"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html"> Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+          
+          </ul>
+      </div>
+      <div class="col-lg-3 p-2 icon_nav">
+        <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-solid fa-magnifying-glass"></i>
+             </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1">
+            <i class="fa-regular fa-user  "></i>
+            </button>
+          <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-regular fa-heart "></i>
+         </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample4">
+             <i class="fa-brands fa-shopify "></i>
+        
+           </button>
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample" >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabe">Search Product</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                  All Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="mb-3">
+                
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+              </div>
+            </div>
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample1" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search Product</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+
+        
+            </div>
+          </div>
+         
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample4" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your card(0)</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /* 1st div start  */ -->
+<div class="container">
+<div class="row first_divone">
+<div class="col-4">
+    <div class="col-12 imgfirst">
+        <img src="./images/f110.jpg" class="img-fluid" alt="...">
+ </div>
+<div class="col-12 ">
+    <div class="container first_div">
+        <div class="row">
+          <div class="col">
+            <img src="./images/f110.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col">
+            <img src="./images/f111.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col">
+            <img src="./images/f112.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col">
+            <img src="./images/f113.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+        
+      </div>
+    
+
+</div>
+</div>
+<div class="col-6 first_divtwo">
+
+    <h3>GUBI Ronde Pendant</h3>
+    <h4 class="firsth4">  £ 32.50</h4>
+    <p>Designed for simplicity and made from high quality materials. Its sleek<br> geometry and material combinations creates a modern look.</p>
+
+   <a> <i class="fa-solid fa-tape"></i> Size Chart</a>
+   <!-- <div class="container d-flex"> -->
+    <h4>Sold item</h4> 
+    <!-- </div> -->
+   <div class="progress">
+   
+    <div class="progress-bar progress_clr" color="#FF6F61" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <br>
+  
+
+  <P>You are missing £ 200.00 to get free shipping!</P>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <br>
+  <div class="btn" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary btn_one "> -  1  +</button>
+    <button type="button" class="btn btn-primary btn_colour "> Add to cart</button>
+    <button type="button" class="btn btn-primary btn_one">Buy Now</button>
+    <i class="fa-regular fa-heart"></i>
+  </div>
+  <div class="fiirstcol">
+<p>SKU:MR544OL1PR</p>
+<P>Categories:Arm Chairs, Living Room</P>
+<p>Tags:Bookcases, Dressers</p>
+<p>share:  <a><i class="fa-brands fa-facebook icon fiirstcol"></i></a>
+    <a>  <i class="fa-brands fa-twitter icon fiirstcol"></i></a></p>
+    </div>
+
+    <h5>Free worldwide shipping on all orders over $50</h5>
+    <p> <i class="fa-solid fa-check"></i> 30 days easy returns</p>
+    <p> <i class="fa-solid fa-check"></i>  Order yours before 2.30pm for same day dispatch</p>
+    <br>
+    <img src="./images/trust-images.jpg" class="img-fluid" alt="...">
+</div>
+
+</div>
+
+
+</div>
+
+<!-- 2nd div -->
+<div class="container">
+    <div class="row second_div">
+      <div class="col-2 col_2clr">
+        Description
+      </div>
+      <div class="col-2">
+        Additional information
+      </div>
+      <div class="col-2">
+        Reviews(1)
+      </div>
+    </div>
+    
+  </div>
+ 
+  
+  <div class="container">
+    <div class="row para_3">
+  <p>Lower temperature washes and delicate spin cycles are gentler on garment, helping to maintain the color,<br> shape and structure of the fabric. At the same time it reduces energy consumption that is used in care<br> processes.</p>
+
+      <div class="col">
+        Model wears: UK 10/ EU 38/ US 6<br>
+        Occasion: Lifestyle, Sport<br>
+        Country: Italy
+      </div>
+      <div class="col">
+        Model wears: UK 10/ EU 38/ US 6<br>
+        Occasion: Lifestyle, Sport<br>
+        Country: Italy
+      </div>
+    </div>
+    
+  </div>
+<!-- 3rd div  -->
+
+
+  <div class="container third_div">
+    <h1>Realated Product</h1>
+
+    <div class="row row-cols-auto">
+        <!-- <h1>Realated Product</h1> -->
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/f210.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Globe Pendant Light</h5>
+              <p class="card-text ">$ 20.36</p>
+              
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/f1110.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">String System Drawer</h5>
+              <p class="card-text ">$ 184.63</p>
+              
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/f610.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Divina Sofa and Ottoman</h5>
+              <p class="card-text ">$ 230.36</p>
+              
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/f1511.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pollock Executive Chair </h5>
+              <p class="card-text ">$ 95.36</p>
+              
+            </div>
+          </div>
+      </div>
+      
+    </div>
+    <br>
+    <br>
+    <div class="progress three_progress ">
+   
+        <div class="progress-bar progress_clr" color="#FF6F61" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <h1> Recently Viewed</h1>
+  <img src="./images/f110.jpg" class="img three_img" alt="...">
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer   -->
+<div class="container-fluid footer" >
+    <div class="row footer">
+      <div class="col icon">
+        <h1>Razzi.</h1>
+       <a><i class="fa-brands fa-facebook icon"></i></a>
+       <a>  <i class="fa-brands fa-twitter icon"></i></a>
+       <a> <i class="fa-brands fa-google icon"></i></a>
+       <a></a> <i class="fa-solid fa-t icon"></i></a>
+  
+  
+  
+      </div>
+      <div class="col">
+        <h3>SUPPORT</h3>
+        <a><h5>Contact Us</h5></a>
+        <h5> FAQs</h5>
+        <h5> Store Locator</h5>
+        <h5> Shipping & Returns</h5>
+        
+  
+      </div>
+      <div class="col">
+        <h3>SHOP</h3>
+        <h5>Men's Shooping </h5>
+        <h5> Women's Shooping</h5>
+        <h5> Kids' Shooping</h5>
+        <h5> Discount</h5>
+  
+      </div>
+      <div class="col">
+        <h3>COMPANY</h3>
+        <h5> Our Story</h5>
+        <h5> Careers</h5>
+        <h5> Teams & Conditions</h5>
+        <h5> privacy & Cookie policy</h5>
+  
+        
+      </div>
+      <div class="col">
+        <h3>CONTACT</h3>
+        <h5>1-888-923-8044</h5>
+        <h5>1-888-923-8055</h5>
+        <h5>help@allbirds.com</h5>
+        
+  
+      </div>
+    </div>
+  </div>
+  
+  <!-- end footer  -->
+  <div class="container-fluid">
+  <div class="endfooter  d-flex">
+    <img src="./images/download.png" class="img-fluid" alt="">
+    <img src="./images/icons_payment.png" class="img-fluid" alt="...">
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <script src="./js/popper.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>

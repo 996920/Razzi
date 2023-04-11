@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web-20220914T103346Z-001/fontawesome-free-6.1.2-web/css/all.css">
+</head>
+<body>
+    <!-- navbar div -->
+<div class="container-fluid nav_bg  sticky-lg-top">
+    <div class="row justify-content-between">
+      <div class="col-sm-3 col-md-6 col-lg-2 heading ">
+      <h3> Razzi.</h3>
+      </div>
+      <div class="col-sm-3 col-md-6 col-lg-4  d-flex justify-content-center align-item-center">
+        <ul class="nav nav_ui  ">
+            <li class="nav-item">
+                <a class="nav-link active"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html"> Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+          
+          </ul>
+      </div>
+      <div class="col-lg-3 p-2 icon_nav">
+        <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-solid fa-magnifying-glass"></i>
+             </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1">
+            <i class="fa-regular fa-user  "></i>
+            </button>
+          <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <i class="fa-regular fa-heart "></i>
+         </a>
+          <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample4">
+             <i class="fa-brands fa-shopify "></i>
+        
+           </button>
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample" >
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabe">Search Product</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                  All Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="mb-3">
+                
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+              </div>
+            </div>
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample1" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Search Product</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+
+        
+            </div>
+          </div>
+         
+          
+          <div class="offcanvas offcanvas-end"  id="offcanvasExample4" >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your card(0)</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+ <!-- 1st session start -->
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/home9-slider-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block carousel_div">
+        <h1>Best Deal  From <br>
+          Bedroom
+         </h1>
+        <button class="btn">Shop now <i class="fa-solid fa-arrow-right"></i> </button>
+        <span class="position-absolute top-0 start-100 translate-middle p-3 bg-danger border border-light rounded-circle">
+          <span> Save 25%</span>
+        </span>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/home9-slider-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block carousel_div">
+        <h1>Best Deal  From <br>
+          Bedroom
+         </h1>
+        <button class="btn">Shop now <i class="fa-solid fa-arrow-right"></i> </button>
+        <span class="position-absolute top-0 start-100 translate-middle p-3 bg-danger border border-light rounded-circle">
+          <span> Save 25%</span>
+        </span>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/home9-slider-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  d-md-block carousel_div">
+        <h1>Best Deal  From <br>
+          Bedroom
+         </h1>
+        <button class="btn">Shop now <i class="fa-solid fa-arrow-right"></i> </button>
+        <span class="position-absolute top-0 start-100 translate-middle p-3 bg-danger border border-light rounded-circle">
+          <span> Save 25%</span>
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+<div class="container-fluid">
+  <div class="row font_class p-4">
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-less-than font"></i></div>
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-bed font"></i> <br>Beds</div>
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-couch font"></i><br>Sofas</div>
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-table font"></i><br> Coffee Table</div>
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-tv font"></i> <br>TV Stand </div>
+    
+    <div class="col-lg-2 col-md-2 col-sm-3 font_Div"><i class="fa-solid fa-greater-than font"></i></div>
+    
+
+  </div>
+</div>
+ <!-- 2nd session start -->
+ <div class="container-fluid">
+  <div class="row two_class">
+<h2>Limited Time Deals</h2>
+<p>A conscious collection made entirely from food crop waste, recycled<br> cotton, other more sustainable materials.</p>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col ">
+      <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <img src="./images/home9-product-1.jpg" class="img-fluid" alt="..." >
+  
+   
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/home9-product-1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+      
+    </div>
+    
+    <div class="col ">
+      <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+  <img src="./images/home9-product-2.jpg" class="img-fluid" alt="..." >
+  
+   
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/home9-product-2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <div class="col ">
+      <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+  <img src="./images/home9-product-3.jpg" class="img-fluid" alt="..." >
+  
+   
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/home9-product-3.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
+      
+    </div>
+
+  </div>
+</div>
+
+<!-- 3rd session start -->
+<div class="container three_div">
+  <div class="row gy-5 ">
+    <div class="col">
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+      <img src="./images/home9-imgbox-1.jpg" class="img-fluid zoom" alt="...">
+
+          
+          <div class="carousel-caption  d-md-block carousel_divthree">
+            <h3>New 2021 Home Decor  <br>
+              collection
+             </h3>
+            <button class="btn">Shop now <i class="fa-solid fa-arrow-right"></i> </button>
+           
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="container">
+        <div class="row row-cols-2 ">
+          <div class="col-lg-6 ">
+            <div class="card " style="width: 18rem;">
+            <img src="./images/home9-img-2.jpg" class="card-img-top zoom" alt="...">
+            <div class="card-body three_para">
+              <h5 class="card-title ">Office Armchairs</h5>
+              <p class="card-text ">Starting $399</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="card" style="width: 18rem;">
+          <img src="./images/home9-img-3.jpg" class="card-img-top zoom" alt="...">
+          <div class="card-body three_para">
+            <h5 class="card-title ">Dining Table </h5>
+            <p class="card-text ">Starting $419</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card" style="width: 18rem;">
+        <img src="./images/home9-img-4.jpg" class="card-img-top zoom" alt="...">
+        <div class="card-body three_para">
+          <h5 class="card-title ">Kitchen Islands</h5>
+          <p class="card-text ">Starting $129</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 ">
+      <div class="card" style="width: 18rem;">
+      <img src="./images/home9-img-5.jpg" class="card-img-top zoom" alt="...">
+      <div class="card-body three_para">
+        <h5 class="card-title ">Kids Furniture</h5>
+        <p class="card-text ">Starting $269</p>
+        
+      </div>
+    </div>
+  </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- 4th session start -->
+<div id="carouselExampleCaptions" class="carousel slide session4" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/home9-banner-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block font_four">
+        <p>ENJOY AN EXTRA</p>
+        <h1>60% OFF</h1>
+        <p>Best Selling Beds</p>
+      </div>
+    </div>
+    
+    </div>
+    
+    </div>
+    <!-- 5th session start -->
+ 
+    <div class="container fifthsession">
+      <h1>Best Sellers</h1>
+
+      <div class="row row-cols-4">
+        <div class="col">
+          <div class="card fifthimg">
+            <img src="./images/f713.jpg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Comfortable Sofa</h5>
+              <p class="card-text">£ 36.85</p>
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img src="./images/f110.jpg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">GUBI Ronde Pendant</h5>
+
+              <p class="card-text style_5th ">£ 56.87  <span class="style" style="color:red ;">£ 32.50</span></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/f210.jpg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "> The Globe Pendant Light</h5>
+
+              <p class="card-text style_5th ">£ 31.02  <span class="style" style="color:red ;">£ 20.68</span></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/f310.jpg" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title "> The Globe Pendant Light</h5>
+
+              <p class="card-text style_5th ">£ 31.02  <span class="style" style="color:red ;">£ 20.68</span></p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-4 session_5">
+        <div class="col">
+          <div class="col">
+            <div class="card">
+              <img src="./images/f410.jpg" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Clarion Low</h5>
+  
+                <p class="card-text style_5th ">£ 36.93</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <div class="card">
+              <img src="./images/f510.jpg" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Aisha Bar & Counter Stool </h5>
+  
+                <p class="card-text style_5th ">£ 25.85 </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <div class="card">
+              <img src="./images/f610.jpg" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Divina Sofa and Ottoman </h5>
+  
+                <p class="card-text style_5th ">£ 31.02 </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <div class="card">
+              <img src="./images/f810.jpg" class="card-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title "> Divina Sofa Ottoman</h5>
+  
+                <p class="card-text style_5th ">£ 31.02  <span class="style" style="color:red ;">£ 20.68</span></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- 6th session start -->
+    <div class="container six_session">
+      <div class="row row-cols-2">
+        <div class="col  ">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src="./images/home9-imgbox-1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Living Room</h5>
+                 <p>Sectional </p>
+                 <p>Sofas </p>
+                 <p>Arm chairs</p>
+                 <p> Coffee Tables</p>
+                 
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src="./images/home9-imgbox-2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Kitchen</h5>
+                 <p> Kitchen Cabinets </p>
+                 <p>Dining Table  </p>
+                 <p>Dining Chairs</p>
+                 <p> Kitchen Islands</p>
+                 
+               </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4 ">
+                  <img src="./images/home9-imgbox-3.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"> BedRoom</h5>
+                   <p>Beds </p>
+                   <p>Sofas </p>
+                   <p>Arm chairs</p>
+                   <p> Nightstands </p>
+                   
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4 ">
+                  <img src="./images/home9-imgbox-4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Home Office</h5>
+                   <p> Office Desks  </p>
+                   <p>Office sets   </p>
+                   <p>Dining Chairs</p>
+                   <p> Bookcases </p>
+                   
+                 </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          </div>
+          </div>
+      
+
+          <!-- 7th session -->
+          <div class="container ">
+            <div class="seven_session">
+       <h1>Subscribe To Our Newsletter</h1>
+       <p>Receive an exclusive 10% discount code when you signup.
+      </p>
+      </div>
+        <div class="mb-3 d-flex border-0">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="email" class="form-control border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email*">
+         
+          <button class="btnsix"> Subscribe</button>
+        </div>
+        
+      
+</div>
+
+<!-- footer   -->
+<div class="container-fluid footer" >
+  <div class="row footer">
+    <div class="col icon">
+      <h1>Razzi.</h1>
+     <a><i class="fa-brands fa-facebook icon"></i></a>
+     <a>  <i class="fa-brands fa-twitter icon"></i></a>
+     <a> <i class="fa-brands fa-google icon"></i></a>
+     <a></a> <i class="fa-solid fa-t icon"></i></a>
+
+
+
+    </div>
+    <div class="col">
+      <h3>SUPPORT</h3>
+      <a><h5>Contact Us</h5></a>
+      <h5> FAQs</h5>
+      <h5> Store Locator</h5>
+      <h5> Shipping & Returns</h5>
+      
+
+    </div>
+    <div class="col">
+      <h3>SHOP</h3>
+      <h5>Men's Shooping </h5>
+      <h5> Women's Shooping</h5>
+      <h5> Kids' Shooping</h5>
+      <h5> Discount</h5>
+
+    </div>
+    <div class="col">
+      <h3>COMPANY</h3>
+      <h5> Our Story</h5>
+      <h5> Careers</h5>
+      <h5> Teams & Conditions</h5>
+      <h5> privacy & Cookie policy</h5>
+
+      
+    </div>
+    <div class="col">
+      <h3>CONTACT</h3>
+      <h5>1-888-923-8044</h5>
+      <h5>1-888-923-8055</h5>
+      <h5>help@allbirds.com</h5>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- end footer  -->
+<div class="container-fluid">
+<div class="endfooter  d-flex">
+  <img src="./images/download.png" class="img-fluid" alt="">
+  <img src="./images/icons_payment.png" class="img-fluid" alt="...">
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</body>
+</html>
